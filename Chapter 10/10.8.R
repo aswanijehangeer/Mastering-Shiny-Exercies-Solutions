@@ -2,7 +2,7 @@ library(shiny)
 library(shinyjs)
 
 ui <- fluidPage(
-  useShinyjs(),  # Initialize shinyjs
+  useShinyjs(),  # Initializing shinyjs
   
   selectInput("type", "Type", c("slider", "numeric")),
   
